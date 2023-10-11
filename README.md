@@ -53,7 +53,7 @@ This API documentation describes the endpoints and usage for managing user data 
 | user_name      | String      | User's username              |
 | user_email     | String      | User's email address (unique)|
 | user_password  | String      | User's password              |
-| user_image     | String      | User's image (file path or URL) |
+| user_image     | blob        | User's image                  |
 | total_orders   | Integer     | Total orders placed by user |
 | created_at     | Timestamp   | User's creation timestamp    |
 | last_logged_in | Timestamp   | User's last login timestamp  |
