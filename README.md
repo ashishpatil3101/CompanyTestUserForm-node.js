@@ -12,6 +12,14 @@ This API documentation describes the endpoints and usage for managing user data 
 - **Parameters**: `user_id` (path parameter) - The unique identifier for the user.
 - **Response**: JSON object containing user details.
 
+##  get all users info in tabular form
+### 1. Get ALl User Details
+- **Endpoint**: `http://localhost:3001/all-users'
+- **HTTP Method**: GET
+- **Description**: Fetch details users.
+- **Response**: html file
+
+- 
 ### 2. Update User Details
 - **Endpoint**: `/update`
 - **HTTP Method**: PUT
